@@ -1,4 +1,4 @@
-# Film Fanatic
+# Task App
 
 ## OverView
 This is a classic To do list app but it incorporates many additional features including Google Maps and notifications
@@ -15,15 +15,17 @@ more advanced features.
 - Tasks are saved locally using SQLite as a database
 - Tasks can be added to Google Calendar
 - User can add a destination to each task using Google Maps
-- User can receive a notification that when clicked, launches Google maps app to get directions
+- User can receive a notification that when clicked, launches Google maps app to get directions (Work Manager used for scheduling)
 - User can edit any task and save it
 
 
 ## Walkthrough videos of features
 
-### Creating Task and adding to Google Calendar
+### Creating Task 
 <img src="https://github.com/Gregbgarman/Film_Fanatic/blob/master/walkthrough1.gif" width=250><br>
 
+### Adding Task to Google Calendar
+<img src="https://github.com/Gregbgarman/Film_Fanatic/blob/master/walkthrough1.gif" width=250><br>
 
 ### Receiving notification and launching Google Maps app
 <img src="https://github.com/Gregbgarman/Film_Fanatic/blob/master/filmfan2.gif" width=250><br>
@@ -57,4 +59,21 @@ more advanced features.
 | TimeSet    | boolean         | true when time and date are set for a task |
 
 
+## Challenges Faced During development
+- This was my first time using SQLite and using notifications in an app. SQLite could be challenging to work with 
+because it is very particular with spacing when creating the SQL table to store data. Much time spent debugging
+and uninstalling the app was needed to implement proper storing of data with SQLite database.
+
+
+
+## Future features that could enhance app
+- Being able to sort tasks by what day of the week or month they are set
+
+
+
+## Other Information
+- API keys needed for this app are:
+      Google Maps API
+      
+## Gallery
 
