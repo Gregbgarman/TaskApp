@@ -22,13 +22,13 @@ more advanced features.
 ## Walkthrough videos of features
 
 ### Creating Task 
-<img src="https://github.com/Gregbgarman/Film_Fanatic/blob/master/walkthrough1.gif" width=250><br>
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/taskwalkthru.gif" width=250><br>
 
 ### Adding Task to Google Calendar
-<img src="https://github.com/Gregbgarman/Film_Fanatic/blob/master/walkthrough1.gif" width=250><br>
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/cal.gif" width=250><br>
 
 ### Receiving notification and launching Google Maps app
-<img src="https://github.com/Gregbgarman/Film_Fanatic/blob/master/filmfan2.gif" width=250><br>
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/map.gif" width=250><br>
 
 
 ## Models
