@@ -49,7 +49,7 @@ more advanced features.
 | lat | double        | latitude coordinate of destination           |
 | lng | double       | longitued coordinate of destination      |
 | TotalTimeinMillis | long      | time in milliseconds of when task is scheduled        |
-(below not stored on SQLite)
+(below not stored on SQLite, but set after data retrived from SQLite database)
 | AlertSet    | boolean         | true when notification scheduled |
 | DestinationSet     | boolean         | true when destination set |
 | TaskSet    | boolean         | true when task itself is entered |
