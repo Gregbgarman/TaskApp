@@ -60,7 +60,7 @@ more advanced features.
 
 
 ## Challenges Faced During development
-- This was my first time using SQLite and using notifications in an app. SQLite could be challenging to work with 
+- This was my first time using SQLite in an app. SQLite could be challenging to work with 
 because it is very particular with spacing when creating the SQL table to store data. Much time spent debugging
 and uninstalling the app was needed to implement proper storing of data with SQLite database.
 
