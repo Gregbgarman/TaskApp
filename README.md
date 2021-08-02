@@ -76,5 +76,5 @@ and uninstalling the app was needed to implement proper storing of data with SQL
 - API keys needed for this app are:
       Google Maps API
       
-## Gallery
+
 
