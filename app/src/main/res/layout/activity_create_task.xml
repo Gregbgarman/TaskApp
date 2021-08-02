@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200"
+        tools:context=".activities.CreateTaskActivity">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewholder"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="36dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="111dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/MyLightGrey"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:fontFamily="@font/hind_vadodara_bold"
+                    android:gravity="center_horizontal|top"
+                    android:text="Task"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/taskaction" />
+
+                <TextView
+                    android:id="@+id/tvTaskOverview"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/hind_vadodara_medium"
+                    android:text="N/A"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivTaskComplete"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="32dp"
+                    app:srcCompat="@drawable/checkmark" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="111dp"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/MyLightGrey"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/addlocation" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/hind_vadodara_bold"
+                    android:text="Destination"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvDestinationOverview"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/hind_vadodara_medium"
+                    android:text="N/A"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivDestinationSet"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="32dp"
+                    app:srcCompat="@drawable/checkmark" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="111dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="135dp"
+                app:cardBackgroundColor="@color/MyLightGrey"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/calendar" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/hind_vadodara_bold"
+                    android:text="Date and Time"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvDateOverview"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/hind_vadodara_medium"
+                    android:text="N/A"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivDateSet"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="32dp"
+                    app:srcCompat="@drawable/checkmark" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="111dp"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="135dp"
+                app:cardBackgroundColor="@color/MyLightGrey"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/notesimage" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/hind_vadodara_bold"
+                    android:text="Note"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvNoteOverview"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/hind_vadodara_medium"
+                    android:text="N/A"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivNoteComplete"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="32dp"
+                    app:srcCompat="@drawable/checkmark" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="260dp"
+                app:cardBackgroundColor="@color/MyLightGrey"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="3dp"
+                    app:srcCompat="@drawable/notificationbell" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="33dp"
+                    android:fontFamily="@font/hind_vadodara_bold"
+                    android:text="Alert"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvAlertOverview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/hind_vadodara_bold"
+                    android:text="Off"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewholder" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvtask"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/space">
+
+            <ImageView
+                android:id="@+id/ivivivTask"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:srcCompat="@drawable/taskaction" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:gravity="bottom"
+                android:text="Task"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:text="Required"
+                android:textSize="14sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvTask"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="7dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/ivCVTASK"
+                    android:layout_marginStart="2.5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/plainplus" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvtask">
+
+            <ImageView
+                android:id="@+id/iviviviv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/notesimage" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:gravity="bottom"
+                android:text="Note"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:text="Optional" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvNote"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="7dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/ivCVNOTE"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="2.5dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/plainplus" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/calendar" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:gravity="bottom"
+                android:text="Date and Time"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:text="Optional" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvDate"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="7dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/ivCVDATE"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="2.5dp"
+                    android:layout_marginTop="2dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/plainplus" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvmap"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+            <ImageView
+                android:id="@+id/imageView151"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/addlocation" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:gravity="bottom"
+                android:text="Destination"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:text="Optional" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvMap"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="7dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/ivCVDESTINATION"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="2.5dp"
+                    android:layout_marginTop="2dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/plainplus" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvalert"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvmap">
+
+            <ImageView
+                android:id="@+id/imageView1511"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/notificationbell" />
+
+            <TextView
+                android:id="@+id/textView1711"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:gravity="bottom"
+                android:text="Alert"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView1811"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:text="Optional" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvAlert"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="315dp"
+                android:layout_marginTop="7dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/ivCVALERT"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="2.5dp"
+                    android:layout_marginTop="2dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/plainplus" />
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Space
+            android:id="@+id/space2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvalert" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CVSUBMIT"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/space2">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/hind_vadodara_bold"
+                android:text="Save"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/save" />
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:id="@+id/space3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/CVSUBMIT" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
