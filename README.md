@@ -41,8 +41,7 @@ more advanced features.
 | Notificationid | String      | ID of each scheduled notification, needed for cancelling if user chooses        |
 | year     | int         | year when task takes place |
 | month     | int         | month when task takes place |
-
-| day | int        | day of week when task takes place           |
+| day | int        | day of week when task takes place  |
 | hour | int       | hour when task takes place       |
 | min | int      | minute when task takes place        |
 | alerthour    | int         | hour of scheduled notification |
