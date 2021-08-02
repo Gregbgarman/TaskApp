@@ -15,6 +15,7 @@ more advanced features.
 - Tasks are saved locally using SQLite as a database
 - Tasks can be added to Google Calendar
 - User can add a destination to each task using Google Maps
+- Live search results appear as user searches for location on Google Maps 
 - User can receive a notification that when clicked, launches Google maps app to get directions (Work Manager used for scheduling)
 - User can edit any task and save it
 
