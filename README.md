@@ -28,7 +28,7 @@ more advanced features.
 <img src="https://github.com/Gregbgarman/TaskApp/blob/master/cal.gif" width=250><br>
 
 ### Receiving notification and launching Google Maps app
-<img src="https://github.com/Gregbgarman/TaskApp/blob/master/map.gif" width=250><br>
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/mapp.gif" width=250><br>
 
 
 ## Models
