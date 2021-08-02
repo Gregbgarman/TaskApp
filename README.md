@@ -47,11 +47,9 @@ more advanced features.
 | min | int      | minute when task takes place        |
 | alerthour    | int         | hour of scheduled notification |
 | alertmin     | int         | minute of scheduled notification |
-
 | lat | double        | latitude coordinate of destination           |
 | lng | double       | longitued coordinate of destination      |
 | TotalTimeinMillis | long      | time in milliseconds of when task is scheduled        |
-
 (below not stored on SQLite)
 | AlertSet    | boolean         | true when notification scheduled |
 | DestinationSet     | boolean         | true when destination set |
