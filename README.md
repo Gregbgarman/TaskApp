@@ -1,8 +1,8 @@
 # Task App (Solo Project)
 
-<img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage1" width=250> &nbsp; &nbsp; &nbsp: &nbsp; <img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage2" width=250><br>
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage1.PNG" width=250> &nbsp; &nbsp; &nbsp: &nbsp; <img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage2.PNG" width=250><br>
 
-<img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage3" width=250> &nbsp; &nbsp; &nbsp: &nbsp; <img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage4" width=250><br>
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage3.PNG" width=250> &nbsp; &nbsp; &nbsp: &nbsp; <img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage4.PNG" width=250><br>
 
 
 ## OverView
