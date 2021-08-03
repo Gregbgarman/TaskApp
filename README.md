@@ -1,4 +1,9 @@
-# Task App
+# Task App (Solo Project)
+
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage1" width=250> &nbsp; &nbsp; &nbsp: &nbsp; <img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage2" width=250><br>
+
+<img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage3" width=250> &nbsp; &nbsp; &nbsp: &nbsp; <img src="https://github.com/Gregbgarman/TaskApp/blob/master/TAgoodimage4" width=250><br>
+
 
 ## OverView
 This is a classic To do list app but it incorporates many additional features including Google Maps and notifications
